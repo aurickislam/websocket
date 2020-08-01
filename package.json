@@ -4,7 +4,7 @@
   "description": "WebSocket test project",
   "main": "app.js",
   "scripts": {
-    "dev-start": "COLOR=true nodemon --inspect app"
+    "dev-start": "nodemon --inspect app"
   },
   "repository": {
     "type": "git",
@@ -22,7 +22,7 @@
   "dependencies": {
     "colors": "^1.4.0",
     "express": "^4.17.1",
-    "nodemon": "^2.0.3",
-    "ws": "^7.3.0"
+    "nodemon": "^2.0.4",
+    "ws": "^7.3.1"
   }
 }
