@@ -1,0 +1,13 @@
+version: '3.7'
+
+services:
+  websocket:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: websocket:latest
+    container_name: websocket
+    hostname: websocket
+    restart: always
+    ports:
+      - "8999:8999"
